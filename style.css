@@ -273,7 +273,6 @@ main {
 
 .skillheading {
 	font-family: "Raleway", sans-serif;
-
 	font-size: 32px;
 	position: relative;
 	left: -46%;
@@ -310,21 +309,60 @@ meter::-webkit-meter-optimum-value {
 
 /*testimonials*/
 .testimonials {
+	height: 100vh;
+	background-color: white;
+	display: flex;
+	flex-direction: row;
+}
+.testimonialhead {
 	font-family: "Raleway", sans-serif;
-	min-height: 80vh;
-	background-color: #f5f8fd;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-size: 100% 100%;
+	font-size: 32px;
+	color: #173b6c;
+	position: absolute;
+	left: 22%;
+	margin-block-start: 0%;
+}
+.testparagraph {
+	margin-top: 5%;
+	margin-left: 2.5%;
 }
 
-.skillheading {
-	font-family: "Raleway", sans-serif;
+.testcontainer {
+	border: 3px solid #fff;
+	padding: 20px;
+}
 
-	font-size: 32px;
+.testcolumn1 {
+	height: 400px;
+	width: 30%;
+	float: left;
+	padding: 20px;
+	border: 2px solid transparent;
+	border-radius: 53px;
+	background: #e0e0e0;
+	box-shadow: 31px 31px 61px #6e6e6e, -31px -31px 61px #ffffff;
+}
+.testcolumn2 {
+	height: 400px;
+	width: 30%;
+	float: right;
+	padding: 20px;
+	border: 2px solid transparent;
+	border-radius: 53px;
+	background: #e0e0e0;
+	box-shadow: 31px 31px 61px #6e6e6e, -31px -31px 61px #ffffff;
+}
+.testcolumn3 {
+	height: 400px;
+	width: 30%;
+	display: flex;
 	position: relative;
-	left: -46%;
-	color: #173b6c;
+	left: 5%;
+	padding: 20px;
+	border: 2px solid transparent;
+	border-radius: 53px;
+	background: #e0e0e0;
+	box-shadow: 31px 31px 61px #6e6e6e, -31px -31px 61px #ffffff;
 }
 /*testimonials ending*/
 
@@ -564,3 +602,32 @@ form {
 	text-align: center;
 }
 /*contact ending*/
+@media screen and (max-width: 600px) {
+	body {
+		grid-template-areas:
+			"sidebar"
+			"header"
+			"about"
+			"services"
+			"resume"
+			"footer";
+	}
+}
+#landin {
+	grid-area: header;
+}
+.nav {
+	grid-area: sidebar;
+}
+#about {
+	grid-area: about;
+}
+#skills {
+	grid-area: services;
+}
+#resume {
+	grid-area: resume;
+}
+#contact {
+	grid-area: footer;
+}
