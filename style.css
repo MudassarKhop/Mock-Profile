@@ -23,6 +23,7 @@ nav {
 	min-height: 100vh;
 	background-color: rgb(1, 1, 12);
 }
+
 #img1 {
 	width: 39%;
 	height: 39%;
@@ -85,25 +86,14 @@ footer {
 	padding: 1px;
 	color: white;
 }
+.icons {
+	margin-left: 34px;
+}
 
 /*nav bar ending*/
 
 /*icons starting*/
 .instagram {
-	font-size: 18px;
-	display: inline-block;
-	background: #212431;
-	color: #fff;
-	line-height: 1;
-	padding: 8px 0;
-	margin-right: 4px;
-	border-radius: 50%;
-	text-align: center;
-	width: 36px;
-	height: 36px;
-	transition: 0.3s;
-}
-.facebook {
 	font-size: 18px;
 	display: inline-block;
 	background: #212431;
@@ -333,7 +323,7 @@ meter::-webkit-meter-optimum-value {
 }
 
 .testcolumn1 {
-	height: 400px;
+	height: 505px;
 	width: 30%;
 	float: left;
 	padding: 20px;
@@ -342,8 +332,30 @@ meter::-webkit-meter-optimum-value {
 	background: #e0e0e0;
 	box-shadow: 31px 31px 61px #6e6e6e, -31px -31px 61px #ffffff;
 }
+.testimg1 {
+	width: 60%;
+	border-radius: 12%;
+	margin-left: 18%;
+	margin-right: 18%;
+}
+.testhead {
+	color: #173b6c;
+	font-family: "Raleway", sans-serif;
+	text-align: center;
+	margin-left: 16px;
+}
+.testsub {
+	color: #656769;
+	font-size: 13px;
+	text-align: center;
+	margin-top: -15px;
+}
+.testparagraph2 {
+	color: #050d18;
+	margin-top: -10px;
+}
 .testcolumn2 {
-	height: 400px;
+	height: 500px;
 	width: 30%;
 	float: right;
 	padding: 20px;
@@ -352,8 +364,30 @@ meter::-webkit-meter-optimum-value {
 	background: #e0e0e0;
 	box-shadow: 31px 31px 61px #6e6e6e, -31px -31px 61px #ffffff;
 }
+.testimg2 {
+	width: 60%;
+	border-radius: 12%;
+	margin-left: 18%;
+	margin-right: 18%;
+}
+.testhead2 {
+	color: #173b6c;
+	font-family: "Raleway", sans-serif;
+	text-align: center;
+	margin-left: 16px;
+}
+.testsub2 {
+	color: #656769;
+	font-size: 13px;
+	text-align: center;
+	margin-top: -15px;
+}
+.testparagraph3 {
+	color: #050d18;
+	margin-top: -10px;
+}
 .testcolumn3 {
-	height: 400px;
+	height: 500px;
 	width: 30%;
 	display: flex;
 	position: relative;
@@ -363,6 +397,28 @@ meter::-webkit-meter-optimum-value {
 	border-radius: 53px;
 	background: #e0e0e0;
 	box-shadow: 31px 31px 61px #6e6e6e, -31px -31px 61px #ffffff;
+}
+.testimg3 {
+	width: 60%;
+	border-radius: 12%;
+	margin-left: 18%;
+	margin-right: 18%;
+}
+.testhead3 {
+	color: #173b6c;
+	font-family: "Raleway", sans-serif;
+	text-align: center;
+	margin-left: 16px;
+}
+.testsub3 {
+	color: #656769;
+	font-size: 13px;
+	text-align: center;
+	margin-top: -15px;
+}
+.testparagraph4 {
+	color: #050d18;
+	margin-top: -10px;
 }
 /*testimonials ending*/
 
@@ -391,130 +447,51 @@ meter::-webkit-meter-optimum-value {
 .resumeparagraph1 {
 	margin-left: 1%;
 }
-.resumetimeline {
+.rescontainer {
 	border: 3px solid transparent;
 	padding: 20px;
 }
 
-.timeline1 {
-	height: 450px;
-	width: 500px;
+.res1 {
+	width: 40%;
+	height: 500px;
 	float: left;
 	padding: 20px;
-	border: 2px solid transparent;
+	border: 5px solid #149ddd;
 }
-.timeline2 {
-	margin-top: -100%;
-	margin-right: -130%;
-	height: 450px;
-	width: 500px;
+.res2 {
+	height: 500px;
+	width: 40%;
 	float: right;
 	padding: 20px;
-	border: 2px solid transparent;
-}
-.comments {
-	width: 450px;
-	border-left: 2px solid #1f5297;
-	padding: 0 20px 0 30px;
-}
-.tparagraphhead {
-	font-family: "Poppins", sans-serif;
-	font-size: 18px;
-}
-.tlist {
-	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-		Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-	color: #272829;
-	font-size: 16px;
-	margin-top: 5%;
-}
-.tparagraph1 {
-	color: #6c757d;
-	background-color: transparent;
-	padding: 10px;
-	font-size: 16px;
-	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-		Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-	border: 1px solid transparent;
-	line-height: 1.7;
-	position: relative;
-	margin-top: -7%;
-}
-
-.tparagraph1:before {
-	content: "";
-	display: block;
-	width: 10px;
-	height: 10px;
-	border-radius: 50%;
-	background-color: white;
-	border: 3px solid #1f5297;
-	position: absolute;
-	top: 10px;
-	left: -40px;
-}
-
-.tparagraph1:after {
-	content: "";
-	width: 0;
-	height: 0;
-	border-style: solid;
-	border-color: transparent #ccc transparent transparent;
-	border-width: 8px;
-	position: absolute;
-	left: -17px;
-	top: 10px;
-}
-/*tparagraph1 ending*/
-/*tparagraph2 ending*/
-.comments2 {
-	margin: 100px auto;
-	width: 450px;
-	border-left: 2px solid #1f5297;
-	padding: 0 20px 0 30px;
-}
-
-.tparagraph2 {
-	background-color: #fff;
-	padding: 10px;
-	font-size: 16px;
-	font-family: Tahoma, Arial;
-	border: 1px solid #ccc;
-	line-height: 8;
-	position: relative;
-}
-
-.tparagraph2:before {
-	content: "";
-	display: block;
-	width: 10px;
-	height: 10px;
-	border-radius: 50%;
-	background-color: white;
-	border: 3px solid #1f5297;
-	position: absolute;
-	top: 10px;
-	left: -40px;
-}
-
-.tparagraph2:after {
-	content: "";
-	width: 0;
-	height: 0;
-	border-style: solid;
-	border-color: transparent #ccc transparent transparent;
-	border-width: 8px;
-	position: absolute;
-	left: -17px;
-	top: 10px;
+	border: 5px solid #149ddd;
 }
 /*tparagraph2*/
 
 /*contact*/
-#contact {
+#projects {
+	margin: 0;
 	font-family: "Raleway", sans-serif;
 	min-height: 100vh;
 	background-color: white;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+}
+.projecthead {
+	font-size: 32px;
+	margin-right: 75%;
+	margin-bottom: 10px;
+	color: #173b6c;
+}
+.projectpara {
+	text-align: center;
+}
+
+#contact {
+	font-family: "Raleway", sans-serif;
+	min-height: 100vh;
+	background-color: #f5f8fd;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: 100% 100%;
@@ -529,7 +506,7 @@ meter::-webkit-meter-optimum-value {
 	text-align: center;
 }
 .float-container {
-	border: 3px solid #fff;
+	border: 3px solid transparent;
 	padding: 20px;
 }
 
@@ -612,22 +589,31 @@ form {
 			"resume"
 			"footer";
 	}
+	#landin {
+		grid-area: header;
+	}
+	.nav {
+		grid-area: sidebar;
+	}
+	#about {
+		grid-area: about;
+	}
+	#skills {
+		grid-area: services;
+	}
+	#resume {
+		grid-area: resume;
+	}
+	#contact {
+		grid-area: footer;
+	}
 }
-#landin {
-	grid-area: header;
-}
-.nav {
-	grid-area: sidebar;
-}
-#about {
-	grid-area: about;
-}
-#skills {
-	grid-area: services;
-}
-#resume {
-	grid-area: resume;
-}
-#contact {
-	grid-area: footer;
+
+@media screen and (max-width: 1200px) {
+	nav {
+		display: none;
+	}
+	main {
+		margin-left: 0%;
+	}
 }
